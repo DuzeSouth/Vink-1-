@@ -1,0 +1,11 @@
+var $logo = document.getElementsByClassName("logo");
+var $hello = document.getElementsByClassName("hello");
+var $boxone = document.getElementsByClassName("boxone");
+var $welcome_text = document.getElementsByClassName("Welcome_text");
+$logo.velocity({opacity:0});
+$logo.velocity({opacity:1},{duration:5000, easing: "swing", loop:15});
+//$middleKext.velocity({ left:5000},{duration:4000,easing:"swing",loop:true});
+$logo.velocity({left:2000,opacity:1},{duration:10000, easing: "swing", loop:true});
+$boxone.velocity({opacity:0},{duration:5000,loop:true});
+$boxone.velocity({scale:"200px"},{duration:5000,loop:true});
+$welcome_text.velocity({opcaity:0});

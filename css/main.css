@@ -1,0 +1,434 @@
+.nav-menu li{
+	display: inline-block;
+	text-transform:cursive;
+font-family: 'Italianno', cursive;
+
+}
+a{
+	text-decoration:none;
+	color:#fff;
+	text-align:right;
+  font-family: 'Italianno', cursive;
+}
+.Welcome_text{
+
+  font-family: 'Italianno', cursive;
+text-align: center;
+}
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family:arial;
+
+}
+.Welcome_text2{
+
+  font-family: 'Italianno', cursive;
+text-shadow:3px 3px 3px black;
+color: white;
+text-align: center;
+padding: 40px;
+padding-top: 40px;
+font-kerning: normal;
+text-shadow: white;
+font-size: ;
+
+}
+.boxone{
+
+  background-image: url(../images/adds.jpg);
+  width: 241px;
+  height: 650px;
+  background-size: cover;
+      place-items: center;
+      min-height: 50%;
+      width: clamp(1000px,30%,430px);
+      margin: 0 auto;
+      border-radius: 0.35rem;
+      padding: 1.5rem;
+      background-color: #ccccccd4;
+      margin-top: 5%;
+      position: relative;
+      z-index: 1;
+
+}
+
+body{
+diplay:felx;
+justify-content:center;
+align-tiems:center;
+min-height:100vh;
+background:#3c3f40;
+font-family: 'Italianno', cursive;
+font-size: 48px;
+}
+.architecture{
+    width:100%;
+	height:750px;
+		overflow: hidden;
+		position: relative;
+		background-image:url("../images/1.png");
+		background-size: cover;
+		padding-top: 0%;
+        -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(50%);
+        animation:change2 21s infinite ease-in-out;
+
+
+}
+
+.footerText{
+
+    text-align: center;
+    text-decoration:overline;
+	color:lightcoral;
+	font-size:200%;
+	opacity: 100%;
+font-family: 'Italianno', cursive;
+	padding-left:40px;
+
+}
+@keayframes animate{
+
+0%,18%,20%50.1%,60%,65.1%,80%,90.1%,92%{
+color:#0e3742;
+    text-shadow: none;
+}
+18.1%,20.1%,30%,50%,60.1%,65%80.1%90%,92.1%,100%{
+
+color:#fff;
+box-shadow:0 0 10px #03bcf4,
+0 0 10px #03bcf4,
+0 0 10px #03bcf4,
+0 0 10px #03bcf4,
+0 0 10px #03bcf4;
+}
+}
+.middleText{
+    text-align: center;
+    text-decoration:none;
+	color:black;
+	font-size:400%;
+	opacity: 72%;
+font-family: 'Italianno', cursive;
+	padding-left:40px;
+}
+@keyframes change3 {
+	0%{
+		background-image: url(../images/TAT1.jpg);
+	}
+
+	30%{
+		background-image: url(../images/TAT3.jpg);
+	}
+	40%{
+		background-image: url(../images/TAT2.jpg);
+	}
+	50%{
+		background-image:url(../images/TAT7.jpg);
+	}
+    60%{
+		background-image:url(../images/TAT5.jpg);
+	}
+    80%{
+		background-image:url(../images/TAT9.jpg);
+	}
+    90%{
+		background-image:url(../images/TAT4.jpg);
+	}
+	100%{
+		background-image:url(../images/TAT6.jpg);
+	}
+
+}
+@keyframes change2 {
+  0%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/1.jpg);
+	}
+
+	30%{
+		background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(../images/3.jpg);
+	}
+	40%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/2.jpg);
+	}
+	50%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/4.jpg);
+	}
+    60%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/3.jpg);
+	}
+    80%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/1.jpg);
+	}
+    90%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/2.jpg);
+	}
+	100%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0))), url(../images/TAT6.jpg);
+	}
+
+
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header {
+
+	width:100%;
+	height:800px;
+		overflow: hidden;
+		position: relative;
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url("../images/VK1.jpg");
+		background-size: cover;
+		padding-top: 0%;
+        animation:change 29s infinite ease-in-out;
+        /*-webkit-filter: grayscale(100%);*/ /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    font-family: 'Italianno', cursive;
+
+}
+@keyframes change {
+
+	0%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/VK1.jpg);
+	}
+
+	30%{
+		background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(../images/TAT3.jpg);
+	}
+	40%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/2.jpg);
+	}
+	50%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/TAT7.jpg);
+	}
+    60%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/3.jpg);
+	}
+    80%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/TAT9.jpg);
+	}
+    90%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/4.jpg);
+	}
+	100%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0))), url(../images/TAT6.jpg);
+	}
+}
+.hello{
+
+  position: absolute;
+    font-family: 'Italianno', cursive;
+  text-align: center;
+  font-size: 50px;
+  display: inline-block;
+  font-size:18px;
+  text-transform:cursive;
+font-family: 'Italianno', cursive
+}
+	.section_top{
+		width:100%;
+		height:100%;
+		overflow: hidden;
+		position: relative;
+		background-image: url("../images/VK1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+.Aearch a{
+
+	background:url("../images/SearchIcon.png");
+	width:100%;
+	background-repeat:no-repeat;
+	margin-right:10px;
+}
+.Basket a{
+
+	background:url("../images/SearchIcon2.png");
+	background-repeat:no-repeat;
+  position:absolute;
+  padding-bottom: 100px;
+}
+.{
+
+
+
+    padding-top: 0% font-family: Montserrat, "segoe UI", Tahoma, Geneva,Verdana, sans-serif;
+    place-items: center;
+    width: clamp(947px,30%,430px);
+    border-radius: 0.35rem;
+    padding: 1.5rem;
+    background-color: #f10e0ed4;
+
+    position: relative;
+    z-index: 1;
+
+}
+.AnimationBlock {
+
+  	background-image:url("../images/backRounda.jpg");
+}
+
+.innerSlideShow{
+  border: gradient;
+  border-style: double;
+  border-radius: 200;
+  position: absolute;
+background-image: url(../images/TAT1.jpg);
+width: 241px;
+height: 1157px;
+background-size: cover;
+    place-items: center;
+    min-height: 50%;
+    width: clamp(1000px,30%,430px);
+    margin: 0 auto;
+    border-radius: 5rem;
+    padding-left: 100px;
+    background-color: #ccccccd4;
+    margin-top: 5%;
+    position: relative;
+    z-index: 1;
+    animation:change3 50s infinite ease-in-out;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+
+}
+@keyframes change {
+	0%{
+
+	}
+	25%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/TAT2.jpg);
+	}
+	40%{
+		background-image: ,linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(../images/TAT3.jpg);
+	}
+	65%{
+		background-image:,linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/TAT4.jpg);
+	}
+	80%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(../images/TAT5.jpg);
+	}
+	100%{
+		background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../images/TAT6.jpg);
+	}
+
+}
+.logo{
+
+
+	background-image: url(../images/logo.jpg);
+    width: 241px;
+    height: 241px;
+    background-size: cover;
+    padding-top: 0%;
+    border-style:double;
+    border-width: 35px;
+    border-color: black;
+}
+
+.nav-menu{
+	list-style:none;
+	background-repeat:no-repeat;
+	color:#fff;
+	background-size:1000px 10000px;
+
+}
+
+
+footer{
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+	text-align:center;
+	font-size:75px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding:30px 40px;
+}
+
+
+.nav-menu li a{
+	text-decoration:none;
+
+	padding-left: 10px;
+	padding-right:10px;
+}
+.nav-menu li a:hover{
+	color:rgb(237,146,5);
+	transition: all 0.5s ease-in-out;
+	text-transform:uppercase;
+	text-decoration:bold;
+	font: bold 1.5em Arial, sans-serif;
+  font-family: 'Italianno', cursive;
+}
+/***************************************header-title-1 a*********UP FRONT WITH DESIGN SERVICES********************************************/
+.header-title-2 a {
+
+  color:rgb(230, 234, 8);
+	font-size:75px;
+	opacity: 72%;
+font-family: 'Italianno', cursive;
+	padding-left:40px;
+  position: relative;
+  padding-top: 50px;
+}
+/***************************************header-title-1 a*********UP FRONT WITH DESIGN SERVICES************/
+.header-title-1 a {
+	text-decoration:none;
+	color:#fff;
+	font-size:75px;
+	opacity: 72%;
+font-family: 'Italianno', cursive;
+	padding-left:40px;
+}
+
+.header-title-2 nav{
+	header-title-2
+}
+div#buttons{
+	text-align: center;
+	padding-top: 20px;
+
+}
+	.header-cta-button{
+	text-align: right-side;
+	color:white;
+	background-color:rgb(67,65,59);
+	padding: 10px 20px;
+	margin-bottom:25px;
+	font-size:15px;
+	transition: all 0.5s ease-in-out;
+	}
+
+	.header-cta-button:hover{
+		background-color:red;
+		text-transform:uppercase;
+
+	}
+	/*****************************************header-title-1********************************************************************************/
+	.header-title-2 a:hover{
+
+		text-emphasis-color:red;
+		text-transform:uppercase;
+		text-decoration:underline;
+		opacity:100%;
+background-color: red;
+		}
+
+/********************************Discover section********************************/
+.discover-section{
+	background-color:white;
+	display:flex;
+	justify-content:center;
+}

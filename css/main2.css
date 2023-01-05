@@ -1,0 +1,121 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+	text-align:right;
+}
+strong {
+    font-weight: bold;
+}
+header{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url("../images/4.png");
+	height:600px;
+	background-size:cover;
+	text-align: right-side;
+	
+}
+	h1{
+		text-align:center;
+		color:#fff;
+		background-color:rgb(240,154,75);
+	}
+	
+.Aearch a{
+	
+	background:url("../images/SearchIcon.png");
+	width:100%;
+	background-repeat:no-repeat;
+	margin-right:10px;
+}
+.Basket a{
+	
+	background:url("../images/SearchIcon2.png");
+	width:100%;
+	background-repeat:no-repeat;
+	margin-right:-10px;
+}
+
+.logo a {
+text-decoration:none;
+color:#fff;
+font:arial,cursive; 
+font-size:66px;
+padding-bottom: 40px;
+
+}
+
+.nav-menu{
+	list-style:none;
+	background-repeat:no-repeat;
+	color:#fff;
+	background-size:1000px 10000px;
+	
+}
+
+.nav-menu li{
+	display: inline-block;
+	font-size:18px;
+	text-transform:cursive;
+	font-family:Verdana, Geneva, sans-serif;
+	url("../images/BuilCons.png");
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding:30px 40px;
+}
+.nav-menu li a {
+	text-decoration:none;
+	color:#fff;
+	padding-left: 10px;
+	padding-right:10px;
+}
+.nav-menu li a:hover{
+	color:rgb(237,146,5);
+	transition: all 0.5s ease-in-out;
+	text-transform:uppercase;
+	text-decoration:bold;
+	font: bold 1.5em Arial, sans-serif;
+}
+.header-title-1 a {
+	text-decoration:none;
+	color:rgb(255,255,30);
+	font-size:35px;
+	opacity: 72%;
+	font-family:'Helvetica';
+	padding-left:40px;
+}
+div#buttons{
+	text-align: center;
+	padding-top: 245px;	
+	
+}
+	.header-cta-button{
+	text-align: right-side;
+	color:white;
+	background-color:rgb(67,65,59);
+	padding: 10px 20px;
+	margin-bottom:25px;
+	font-size:15px;
+	transition: all 0.5s ease-in-out;
+	}
+
+	.header-cta-button:hover{
+		background-color:rgb(203,0,55);
+		text-transform:uppercase;
+		
+	}
+footer{
+	padding-bottom:40px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:40px;
+	text-align:center;
+	font-size:22px;
+}

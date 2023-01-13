@@ -1,0 +1,308 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+   
+      }
+.calculator{
+ 
+ background-color: rgb(8, 8, 8);
+ box-shadow: 5px 2px 5px rgba(0,0,0,1);
+ display: flex;
+ height: 400px;
+ flex-wrap: wrap;
+ width: 240px;
+ align-items: center;
+ font-style: 'Times New Roman', Times, serif; 
+
+}
+.display{
+    color: white;
+    padding: 20px 10px;
+    text-align: right;
+    width: 100%;
+    font-size: 40px;
+    height: 60px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.display small{
+    color: rgb(180, 120, 9);
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.nums-container{
+width:75%;
+}
+.ops-container{
+width: 25%;
+}
+.cont-Body{
+    
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+button{
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+   margin: 5px;
+    height: 50px;
+    width: 50px;
+
+}
+button:active{
+transform: scale(0.9);
+}
+button:focus{
+outline:none;
+}
+button :hover{
+
+}
+button.orange{
+    background-color: rgb(211, 138, 3);
+    color:lightgray;
+}
+button.light-gray{
+    background-color: rgb(143, 138, 138);
+    color:#3c3f40;
+}
+button.dark-gray{
+    background-color: #3c3f40;
+    color:lightgray;
+}
+button.big-v{
+    border-radius: 50px;
+    height:110px;
+}
+button.big-h{
+    border-radius: 50px;
+    width: 110px;
+}
+button.ac{
+    margin-right: 50%;
+}
+.Welcome_text{
+
+    font-family: 'Italianno', cursive;
+  text-align: center;
+  }
+  .Welcome_text2{
+  
+    font-family: 'Italianno', cursive;
+  text-shadow:3px 3px 3px black;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  padding-top: 40px;
+  font-kerning: normal;
+  text-shadow: white;
+  font-size: ;
+  
+  }
+  *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+  }
+  body{
+  diplay:felx;
+  justify-content:center;
+  align-tiems:center;
+  min-height:100vh;
+  background:#3c3f40;
+  font-family: 'Italianno', cursive;
+  font-size: 48px;
+  }
+
+  a{
+      text-decoration:none;
+      color:#fff;
+      text-align:right;
+  }
+  strong {
+      font-weight: bold;
+  }
+  header{
+      background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url("../images/backRounda.jpg");
+      height:600px;
+      background-size:cover;
+      text-align: right-side;
+  
+  }
+      h1{
+          text-align:center;
+          color:#fff;
+          background-color:rgb(12 11 11);
+      }
+  
+  
+  .logo{
+      background-image: url(../images/logo.jpg);
+      width: 241px;
+      height: 241px;
+      background-size: cover;
+      padding-top: 0%;
+      border-style:double;
+      border-width: 35px;
+      border-color: black;
+  }
+  
+  
+  .nav-menu{
+      list-style:none;
+      background-repeat:no-repeat;
+      color:#fff;
+      background-size:1000px 10000px;
+  }
+  .nav-menu li{
+      display: inline-block;
+      text-transform:cursive;
+  font-family: 'Italianno', cursive;
+  }
+  nav {
+      display: flex;
+      justify-content: space-between;
+      padding:30px 40px;
+  }
+  .nav-menu li a {
+      text-decoration:none;
+      color:#fff;
+      padding-left: 5px;
+      padding-right:5px;
+  }
+  .nav-menu li a:hover{
+      color:red;
+      transition: all 0.5s ease-in-out;
+      text-transform:uppercase;
+      text-decoration:bold;
+      font: bold 1.5em 'Italianno', cursive;
+      font-family: 'Italianno', cursive;
+  }
+  .header-title-1 a {
+      text-decoration:none;
+      color:rgb(255,255,30);
+      font-size:35px;
+      opacity: 72%;
+      font-family: 'Tangerine', serif;
+      font-size: 48px;
+  }
+
+  .header-cta-button{
+  color:white;
+  margin-bottom: 2%;
+  background-color:rgb(67,65,59);
+  margin-left:50%;
+  font-size:35px;
+  text-align: center;
+  border-radius: 5%;
+  }
+  #text{
+    margin-top: 5%;
+  }
+  a:hover{
+    font-display: swap;
+    text-decoration-color: red;
+    color: red;
+  
+  }
+      .header-cta-button:hover{
+  
+          background-color:white;
+      background-image: url(../images/logo.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:cover;
+      text-decoration-color: red;
+      color: red;
+  
+      }
+  .Thrbuttons{
+  
+  
+      padding: 10%;
+    animation:change 29s infinite ease-in-out;
+    /*-webkit-filter: grayscale(100%);*/ /* Safari 6.0 - 9.0 */
+    border-style: solid;
+    border-width: 20px;
+      }
+    @keyframes change {
+  
+        0%{
+            background-image: url(../images/1.jpg);
+        }
+  
+        30%{
+            background-image: url(../images/3.jpg);
+        }
+        40%{
+            background-image: url(../images/2.jpg);
+        }
+        50%{
+            background-image:url(../images/4.jpg);
+        }
+        60%{
+            background-image:url(../images/1.jpg);
+        }
+        80%{
+            background-image:url(../images/3.jpg);
+        }
+        90%{
+            background-image:url(../images/4.jpg);
+        }
+        100%{
+            background-image:url(../images/2.jpg);
+        }
+    }
+  .buttonz{
+      text-align: center;
+  margin-left: 5px;
+  position: relative;
+  padding: 3%;
+  box-shadow: 50%;
+  font-size: 50px;
+  
+  }
+  .Threebuttons{
+    margin-left: 290px;
+  }
+  .quoteBox{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(../images/skin.jpeg);
+    background-size: cover;
+    background-color: lightcoral;
+    text-transform:cursive;
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  font-size:65px;
+  text-shadow:3px 3px 3px black;
+  color: white;
+  box-shadow: 10px 10px 10px black;
+  }
+  .footertext{
+  
+    display: inline-block;
+    text-transform:cursive;
+  font-family: 'Italianno', cursive;
+  padding-bottom:40px;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:50px;
+  text-align:center;
+  font-size:65px;
+  margin:22px;
+  }
+  
